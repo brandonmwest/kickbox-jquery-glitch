@@ -1,0 +1,60 @@
+html { height: 100% }
+
+body { 
+  background-image: url("https://cdn.glitch.com/3bdea146-40a9-47bc-99b7-909be0ed5adb%2Fmatt-helbig-237295%20(1).jpg?1496712686043");
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+  background-blend-mode: overlay;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  height:100%;
+  position: relative;
+  margin:0;
+  background-color: rgba(0, 0, 0, .61);
+}
+
+h1 {
+  font-weight: bold;
+  color: #eee;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:20px;
+  background-color: #eee;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border:5px solid rgb(150, 150, 150);
+  width:300px;
+}
+
+button { 
+  background-color: rgb(58, 130, 170);
+  border: 1px solid rgb(36, 29, 19);
+  display: inline-block;
+  color: #eee;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 23px;
+  width: 200px;
+  text-decoration: none;
+}
+
+input {
+  color: #444;
+  width:90%;
+  font-size:20px;
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+inputfocus,
+input.focus {
+  border: solid 5px #969696;
+}
