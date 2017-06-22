@@ -1,0 +1,22 @@
+.kickbox-form label {
+	display: block;
+}
+.kickbox-form label > span {
+	display: block;
+	font-weight: bold;
+}
+.kickbox-form input {
+	margin: 3px 0;
+}
+.kickbox-form div.response {
+	margin: 5px 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+}
+.kickbox-form div.response.error {
+	color: #ff2822;
+}
+.kickbox-form div.response.success {
+	color: #35de33;
+}

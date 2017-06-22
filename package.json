@@ -1,0 +1,27 @@
+{
+  "name": "email-signup",
+  "version": "0.0.1",
+  "description": "Verify an email at the point of capture",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "body-parser": "^1.17.2"
+  },
+  "engines": {
+    "node": "6.10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
